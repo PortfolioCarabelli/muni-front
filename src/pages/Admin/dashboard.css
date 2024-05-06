@@ -1,0 +1,53 @@
+.dashboard-card {
+    display: flex;
+    width: calc(100% - 1px); /* Resta el margen de los espacios */
+    height: 8rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: #99999d;
+    position: relative; /* Se añade posicionamiento relativo para colocar la barra correctamente */
+    margin-bottom: 16px; /* Espacio entre las tarjetas */
+  }
+  
+  .dashboard-bar {
+    width: 0.5rem;
+    background-color: #153d6a;
+    position: absolute; /* Se añade posicionamiento absoluto para colocar la barra */
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .card-content {
+    padding: 1rem;
+    flex: 1; /* Se añade flex para que ocupe el espacio restante y no sea afectado por la barra */
+  }
+  
+  .stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .title {
+    color: #32a6ff;
+    font-weight: 500;
+  }
+  
+  .count {
+    color: #32a6ff;
+    font-size: 1.1rem;
+    text-align: end;
+  }
+  
+  .dashboard-chart {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-chart canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+

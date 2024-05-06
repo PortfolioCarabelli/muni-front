@@ -1,0 +1,30 @@
+{
+  "short_name": "MuniReclamos",
+  "name": "Muni Reclamos",
+  "icons": [
+    {
+      "src": "car.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logoWeb.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logoWeb.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "display_override": ["standalone","fullscreen"],
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "lang":"es-MX",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+  
+}
